@@ -1,0 +1,96 @@
+.s4-h2 {
+    font-family: $secondary-font;
+    font-size: 36px;
+    color: white;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.s4-image {
+    max-width: 445px;
+    width: 40%;
+    height: 285px;
+    object-fit: cover;
+}
+
+.s4-h3 {
+    font-family: $primary-font;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FEFEFE;
+}
+
+.icon-quote {
+    color: #5474FD;
+    font-size: 25px;
+}
+
+.s4-paragraph {
+    font-family: $primary-font;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+
+.s4-logo {
+    font-family: $primary-font;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.s4-h5 {
+    font-family: $primary-font;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+
+.icon {
+    color: white;
+    font-size: 25px;
+    transition: $transition;
+    text-decoration: none;
+
+    &:hover {
+    transform: scale(1.05);
+    }
+}
+
+.section4 {
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/section4-background.png");
+    background-size: cover;
+    background-position: center;
+    gap: 30px;
+}
+
+.s4-card {
+    display: flex;
+    max-width: 1000px;
+    width: 90%;
+    background-color: #333333;
+    justify-content: center;
+    gap: 15px;
+}
+
+.s4-footer{
+    margin-top: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.s4-textcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}

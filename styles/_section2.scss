@@ -42,15 +42,18 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+    align-items: flex-start;
     width: 100%;
+    padding-left: 5%;
+
 }
 
 .s2-content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     max-width: 600px;
 }
 
@@ -92,10 +95,12 @@
     font-size: 48px;
 }
 
+
+
 @media (max-width: 480px) {
     
     .section2 {
-        padding-top: 60px;
+        height: auto;
     }
 
     .s2-h2 {
@@ -118,14 +123,13 @@
     }
     
     .features-container {
-        gap: 20px;
-        height: 280px;
+        gap: 10px;
         flex-direction: column;
     }
     
     .feature-card {
         gap: 1px;
-        font-size: 10px;
+        font-size: 12px;
     }
     
     .icon-search {
